@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% block titulo %}Contacto | Mi web personal{% endblock %}
+
+{% block meta %}Contacto web{% endblock %}
+
+{% block imagen %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block encabezado1 %}
+<h1>¿Buscas un programador web?</h1>
+{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Esta es la página de contacto</h2>
+</section>
+{% endblock %}
+
+{% block contenido %}
+<div class="row"> 
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Luis Casares python, django Flask</p>
+        <br>
+        <p><b>Teléfono:</b> <a href="tel:7221658507">722-165-8507</a></p>
+        <p><b>Honorarios:</b> 500€/h (precio base)</p>
+    </div>
+</div>
+{% endblock %}
+

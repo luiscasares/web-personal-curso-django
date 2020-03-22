@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% block titulo %}Portada Django | Mi web personal
+{% endblock %}
+
+{% block meta %}Paginas web en python y el framework Django{% endblock %}
+
+{% block imagen %}{% load static %}{% static 'core/img/home-bg.jpg'%}{% endblock %}
+
+
+{% block encabezado1 %}
+<h1>Portada dinámica de Django</h1>
+{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Este es el bloque de contenido</h2>
+    <p>Hola mundo bloque dinamico</p>
+</section>
+{% endblock %}
+
